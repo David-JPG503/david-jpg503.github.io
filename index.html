@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>David Tran | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <h1>David Tran</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">Om meg</a></li>
+          <li><a href="#projects">Prosjekter</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="about" class="section about-section">
+      <img src="/images/Bilde_av_meg_ny_versjon.jpg" alt="David Tran" class="profile-photo" />
+      <div class="about-text">
+        <h2>Om meg</h2>
+        <p>
+          Jeg er en 17 år gammel elev ved Kuben videregående skole, hvor jeg studerer medieproduksjon. <br><br> Jeg har stor interesse for media og jeg er dyktig i Adobe-programmer som Photoshop og Premiere Pro.
+        </p>
+        <p>
+          Jeg bruker ofte fritiden min på å utforske nye kreative teknikker innen media. <br><br> Jeg er en sosial og vennlig person som liker å bli kjent med andre, og setter stor pris på å samarbeide og utveksle ideer med mennesker rundt meg.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Prosjekter</h2>
+
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">Alle</button>
+            <button class="filter-btn" data-filter="new">Nye</button>
+            <button class="filter-btn" data-filter="old">Gamle</button>
+        </div>
+
+        <div class="project-grid">
+
+          <div class="project-card" data-project="Dokumentar" data-type="new">
+            <img src="/images/Dokumentar.png" alt="Dokumentar" class="project-image" />
+            <h3>Dokumentarfilm</h3>
+            <p>I uke 43-45 i 2025 var jeg i praksis ved Kunsthøgskolen i Oslo, hvor jeg sammen med lærlingene produserte og redigerte en kort dokumentar, rigget lys, lyd og kamera. I tillegg deltatt jeg aktivt i problemløsning.</p>
+            <button class="view-project-btn">Se prosjekt</button>
+          </div>
+
+          <div class="project-card" data-project="Pepsi" data-type="new">
+            <img src="/images/Pepsi_2.jpg" alt="Pepsi" class="project-image" />
+            <h3>Pepsi</h3>
+            <p>Jeg laget Pepsi-plakater i Photoshop og en kort Pepsi-animasjon i Blender. Etter at animasjonen var ferdig, la jeg til overganger, effekter og musikk i Premiere Pro.</p>
+            <button class="view-project-btn">Se prosjekt</button>
+          </div>
+
+          <div class="project-card" data-project="Posters_Trailer" data-type="new">
+            <img src="/images/Magasinforside_version_2.jpg" alt="Posters_Trailer" class="project-image" />
+            <h3>Magasin, Skrekkplakat & Trailer</h3>
+            <p>Jeg laget en magasinforside og en skrekkplakat av meg selv i Photoshop, og en kort trailer i Premiere Pro som min første oppgave i medieproduksjon på Kuben videregående skole.</p>
+            <button class="view-project-btn">Se prosjekt</button>
+          </div>
+
+          <div class="project-card" data-project="Photo_slideshow" data-type="new">
+            <img src="/images/Bildet_Premiere_Pro_slideshow.png" alt="Photo_slideshow" class="project-image" />
+            <h3>Foto slideshow</h3>
+            <p>Jeg laget et kort slideshow i Premiere Pro med bilder jeg tok i løpet av den første uken i medieproduksjon på Kuben videregående skole.</p>
+            <button class="view-project-btn">Se prosjekt</button>
+          </div>
+
+          <div class="project-card" data-project="Silhouette arts" data-type="old">
+            <img src="/images/Battle cats_uten_min_kallnavn_autograf.jpg" alt="Silhouette arts" class="project-image" />
+            <h3>Silhuettkunst</h3>
+            <p>Jeg var med i en interessegruppe på Kuben videregående skole i første året, hvor jeg laget silhuettkunst ved hjelp av Photoshop.</p>
+            <button class="view-project-btn">Se prosjekt</button>
+          </div>
+
+          <div class="project-card" data-project="Pixel arts" data-type="old">
+            <img src="/images/Mutated_Blender_Logo.png" alt="Pixel arts" class="project-image" />
+            <h3>Pixel kunst</h3>
+            <p>Jeg begynte å lage pixelkunst for moro skyld da jeg var 15 år, og har fortsatt med det siden.</p>
+            <button class="view-project-btn">Se prosjekt</button>
+          </div>
+
+          <div class="project-card" data-project="VEKTORA" data-type="old">
+            <img src="/images/Logo_uten_rektangel_annet_version_jpg.jpg" alt="VEKTORA" class="project-image" />
+            <h3>VEKTORA</h3>
+            <p>Sommeren 2025 brukte jeg tiden min på å designe logoer og lage mockups, noe som ga meg muligheten til å utvikle de kreative ferdighetene mine videre.</p>
+            <button class="view-project-btn">Se prosjekt</button>
+          </div>
+
+          <div class="project-card" data-project="Triad Solutions" data-type="old">
+            <img src="/images/Triad Solutions_original_jpg.jpg" alt="Triad Solutions" class="project-image" />
+            <h3>Triad Solutions</h3>
+            <p>I fritiden min hjemme har jeg laget noen logoer som en kreativ øvelse og for egen glede.</p>
+            <button class="view-project-btn">Se prosjekt</button>
+          </div>
+
+    </section>
+
+    <div id="galleryModal" class="modal" aria-hidden="true">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <button class="modal-prev" aria-label="Previous">&#8592;</button>
+      <button class="modal-next" aria-label="Next">&#8594;</button>
+      <div class="modal-media-container">
+      </div>
+    </div>
+
+    <section id="contact" class="section">
+      <h2>Kontakt meg</h2>
+      <form id="contact-form">
+        <input type="text" id="first_name" name="first_name" placeholder="Fornavn" required />
+        <input type="text" id="last_name" name="last_name" placeholder="Etternavn" required />
+        <input type="email" id="email" name="email" placeholder="Din e-post" required />
+        <input type="tel" id="phone" name="phone" placeholder="Ditt telefonnummer (valgfritt)" />
+        <textarea id="message" name="message" rows="5" placeholder="Din melding" required></textarea>
+        <button type="submit" id="submit_btn">Send melding</button>
+        <div id="error-message" style="margin-top: 10px;"></div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-section">
+        <h4 style="margin-bottom: 0.5rem; color: #ff8c00; font-weight: 700;">Kontakt</h4>
+        <p style="margin: 0.3rem 0;">E-post: datra08@icloud.com</p>
+        <p style="margin: 0.3rem 0;">Telefon: +47 463 83 043</p>
+      </div>
+      <div class="footer-section">
+        <h4 style="margin-bottom: 0.5rem; color: #ff8c00; font-weight: 700;">Sosiale medier</h4>
+        <div class="social-links">
+          <a href="http://linkedin.com/in/david-tran-769592382" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "laltaW_gXBc0OfhQB",
+      });
+    })();
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
