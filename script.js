@@ -58,9 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "Foto": [
       { type: "image", src: "images/Snø_Bilde_1.jpg" },
       { type: "image", src: "images/Snø_Bilde_2.jpg" },
-      { type: "image", src: "images/Snø_Bilde_3.jpg" },
-      { type: "image", src: "images/Laptop.JPG" },
-      { type: "image", src: "images/Red_Bull.JPG" }
+      { type: "image", src: "images/Snø_Bilde_3.jpg" }
     ],
     "Posters_Trailer": [
       { type: "image", src: "images/Magasinforside_version_2.jpg" },
