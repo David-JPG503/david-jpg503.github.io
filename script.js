@@ -55,8 +55,12 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: "image", src: "images/Pepsi_4.jpg" },
       { type: "video", src: "Videos/Pepsi_Short_Ad_video.mp4" }
     ],
-    "Photo_slideshow": [
-      { type: "video", src: "Videos/Still_Photos_Edit.mp4" }
+    "Foto": [
+      { type: "image", src: "images/Snø_Bilde_1.jpg" },
+      { type: "image", src: "images/Snø_Bilde_2.jpg" },
+      { type: "image", src: "images/Snø_Bilde_3.jpg" },
+      { type: "image", src: "images/Laptop.jpg" },
+      { type: "image", src: "images/Red_Bull.jpg" }
     ],
     "Posters_Trailer": [
       { type: "image", src: "images/Magasinforside_version_2.jpg" },
