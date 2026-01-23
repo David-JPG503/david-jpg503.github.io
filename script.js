@@ -74,6 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     "Dokumentar": [
       { type: "video", src: "Videos3/Ståle Rue Dokumentar_Compressed.mp4" }
+    ],
+    "PHM": [
+      { type: "video", src: "Videos2/Brøytning_Video Med_Caption_Compressed.mp4" },
+      { type: "video", src: "Videos2/Kort Annet Versjon Brøytning_Compressed.mp4" },
+      { type: "video", src: "Videos2/Bortkjøring Av Snø_Compressed.mp4" },
+      { type: "video", src: "Videos2/Blåsing_Måking_Compressed.mp4" }
     ]
   };
 
