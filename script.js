@@ -80,6 +80,19 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: "video", src: "Videos2/Kort Annet Versjon Brøytning_Compressed.mp4" },
       { type: "video", src: "Videos2/Bortkjøring Av Snø_Compressed.mp4" },
       { type: "video", src: "Videos2/Blåsing_Måking_Compressed.mp4" }
+    ],
+    "Matfotograf": [
+      { type: "image", src: "images/Burger.jpg" },
+      { type: "image", src: "images/Burger2.jpg" },
+      { type: "image", src: "images/Burger3.jpg" },
+      { type: "image", src: "images/Burger4.jpg" },
+      { type: "image", src: "images/Burger5.jpg" },
+      { type: "image", src: "images/Burger6.jpg" },
+      { type: "image", src: "images/Pommes.jpg" },
+      { type: "image", src: "images/Ringer.jpg" },
+      { type: "image", src: "images/Outside.jpg" },
+      { type: "image", src: "images/Outside2.jpg" },
+      { type: "image", src: "images/Bar_Bok.jpg" }
     ]
   };
 
