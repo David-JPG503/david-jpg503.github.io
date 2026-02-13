@@ -2,7 +2,7 @@
 :root {
   --color-bg: #121212;           /* Dark charcoal background */
   --color-text: #ffffff;         /* Soft off-white text */
-  --color-accent: #ff8c00;       /* Dark orange accent */
+  --color-accent: #ffffff;       /* Dark orange accent */
   --color-card-bg: #1e1e1e;      /* Slightly lighter charcoal for cards */
   --color-border: #333333;       /* Dark gray borders */
   --color-muted-text: #aaaaaa;   /* Muted gray text for secondary */
@@ -143,7 +143,7 @@ nav a:focus {
   padding: 1rem 1.25rem;
   border-radius: var(--radius);
   border: 1px solid var(--color-border);
-  box-shadow: 0 2px 5px rgba(255, 140, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -152,7 +152,7 @@ nav a:focus {
 }
 .project-card:hover,
 .project-card:focus-within {
-  box-shadow: 0 5px 15px rgba(255, 140, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
   outline: none;
 }
 
@@ -187,7 +187,7 @@ nav a:focus {
 .view-project-btn {
   background-color: var(--color-accent);
   border: none;
-  color: var(--color-bg);
+  color: var(--color-border);
   font-weight: 600;
   padding: 0.6rem 1.2rem;
   border-radius: 6px;
@@ -199,7 +199,7 @@ nav a:focus {
 }
 .view-project-btn:hover,
 .view-project-btn:focus {
-  background-color: #cc7000;
+  background-color: #aaaaaa;
   outline: none;
 }
 
@@ -211,7 +211,7 @@ nav a:focus {
 }
 .project-filters .filter-btn {
   background: none;
-  border: 2px solid var(--color-accent);
+  border: 2px solid var(--color-border);
   color: var(--color-accent);
   padding: 0.4rem 0.8rem;
   border-radius: 5px;
@@ -257,7 +257,7 @@ button[type="submit"] {
 }
 button[type="submit"]:hover,
 button[type="submit"]:focus {
-  background-color: #cc7000;
+  background-color: #aaaaaa;
   outline: none;
 }
 
@@ -387,9 +387,9 @@ footer {
 .modal-next {
   position: absolute;
   top: 50%;
-  background: rgba(255, 140, 0, 0.85);
+  background: rgb(0, 0, 0);
   border: none;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 2.2rem;
   padding: 0.7rem 1rem;
   cursor: pointer;
@@ -397,7 +397,7 @@ footer {
   user-select: none;
   transform: translateY(-50%);
   transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 4px 8px rgba(255, 140, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
   z-index: 10000;
   display: flex;
   align-items: center;
@@ -410,9 +410,9 @@ footer {
 .modal-next:hover,
 .modal-prev:focus,
 .modal-next:focus {
-  background: #ff8c00;
+  background: #333333;
   outline: none;
-  box-shadow: 0 6px 12px rgba(255, 140, 0, 0.7);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.7);
   transform: translateY(-50%) scale(1.1);
 }
 
