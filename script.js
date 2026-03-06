@@ -57,9 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     "Foto": [
       { type: "image", src: "images/Egg_1.jpg" },
-      { type: "image", src: "images/Egg_2.jpg" },
-      { type: "image", src: "images/Egg_3.jpg" },
+      { type: "image", src: "images/Dd_Blad_Gress1.jpg" },
       { type: "image", src: "images/Dd_Blad_Gress_2.jpg" },
+      { type: "image", src: "images/Dd_Blad_Gress_3.jpg" },
       { type: "image", src: "images/Gress.jpg" },
       { type: "image", src: "images/Energy_drink.jpg" },
       { type: "image", src: "images/Vanndråpe_3.jpg" },
