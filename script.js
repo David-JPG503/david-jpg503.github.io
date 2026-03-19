@@ -25,18 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: "image", src: "images2/Mug PSD MockUp 3 (1).jpg" },
       { type: "image", src: "images2/Mug PSD MockUp 3 (2).jpg" }
     ],
-    "AquaMarine": [
-      { type: "image", src: "images2/1 (1).jpg" },
-      { type: "image", src: "images2/1.jpg" },
-      { type: "image", src: "images2/1 (2).jpg" },
-      { type: "image", src: "images/Fish_logo_original_rectangle.png" },
-      { type: "image", src: "images/Outline_Fish_Logo_Rectangle.png" },
-      { type: "image", src: "images/Gentleman_Fish_Original.jpg" },
-      { type: "image", src: "images2/Shop Facade Logo MockUp (1).jpg" },
-      { type: "image", src: "images2/Snapback Cap PSD MockUp.jpg" },
-      { type: "image", src: "images2/Snapback Cap PSD MockUp (1).jpg" },
-      { type: "image", src: "images2/Snapback Cap PSD MockUp (2).jpg" }
-    ],
     "Silhouette arts": [
       { type: "image", src: "images/Battle cats_uten_min_kallnavn_autograf.jpg" },
       { type: "image", src: "images/Jurassic Park_min_egen_versjon_bilde.jpg" }
@@ -56,6 +44,10 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: "video", src: "Videos/Pepsi_Short_Ad_video.mp4" }
     ],
     "Foto": [
+      { type: "image", src: "images/Gammel_Bygning.jpg" },
+      { type: "image", src: "images/Blad4.jpg" },
+      { type: "image", src: "images/Johannes.jpg" },
+      { type: "image", src: "images/Kongle.jpg" },
       { type: "image", src: "images/Egg_1.jpg" },
       { type: "image", src: "images/Dd_Blad_Gress1.jpg" },
       { type: "image", src: "images/Dd_Blad_Gress_2.jpg" },
@@ -70,12 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: "image", src: "images/Magasinforside_version_2.jpg" },
       { type: "image", src: "images/Plakat_Whisper_in_the_Dark.jpg" },
       { type: "video", src: "Videos/Short_Trailer_with_video_templates.mp4" }
-    ],
-    "Studio_Trailer": [
-      { type: "video", src: "Videos2/David Tran_Trailer_Studioshow.mp4" }
-    ],
-    "Lyd": [
-      { type: "video", src: "Videos2/David Tran_American Psyco.mp4" }
     ],
     "Dokumentar": [
       { type: "video", src: "Videos3/Ståle Rue Dokumentar_Compressed.mp4" }
