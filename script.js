@@ -45,6 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     "Foto": [
       { type: "image", src: "images/Gammel_Bygning.jpg" },
+      { type: "image", src: "images/Plante.jpg" },
+      { type: "image", src: "images/Mann2.jpg" },
       { type: "image", src: "images/Blad4.jpg" },
       { type: "image", src: "images/Johannes.jpg" },
       { type: "image", src: "images/Kongle.jpg" },
