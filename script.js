@@ -44,6 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: "video", src: "Videos/Pepsi_Short_Ad_video.mp4" }
     ],
     "Foto": [
+      { type: "image", src: "images/Bygning_NY.jpg" },
+      { type: "image", src: "images/Glass_Ny.jpg" },
+      { type: "image", src: "images/Glass_2_NY.jpg" },
       { type: "image", src: "images/Monster2.jpg" },
       { type: "image", src: "images/Gammel_Bygning.jpg" },
       { type: "image", src: "images/Plante.jpg" },
