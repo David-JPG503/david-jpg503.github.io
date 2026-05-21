@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "Foto": [
       { type: "image", src: "images/Glass_Hvit_Striper.jpg" },
       { type: "image", src: "images/Glass_Sort_Striper.jpg" },
+      { type: "image", src: "images/Glass_Litt_Trist.jpg" },
       { type: "image", src: "images/Sofa_Kuben.jpg" },
       { type: "image", src: "images/Kloden_Ute.jpg" },
       { type: "image", src: "images/Bygning_NY.jpg" },
