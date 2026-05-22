@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: "video", src: "Videos/Pepsi_Short_Ad_video.mp4" }
     ],
     "Foto": [
+      { type: "image", src: "images/Rosa_Tre.jpg" },
       { type: "image", src: "images/Glass_Hvit_Striper.jpg" },
       { type: "image", src: "images/Glass_Sort_Striper.jpg" },
       { type: "image", src: "images/Glass_Litt_Trist.jpg" },
