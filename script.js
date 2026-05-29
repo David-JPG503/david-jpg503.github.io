@@ -6,25 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const nextBtn = modal.querySelector('.modal-next');
 
   const projectMedia = {
-    "Triad Solutions": [
-      { type: "image", src: "images/Triad Solutions_original_jpg.jpg" },
-      { type: "image", src: "images/Triad Solutions_title_under_jpg.jpg" },
-      { type: "image", src: "images/Triad Solutions_black_original_jpg.jpg" },
-      { type: "image", src: "images/Triad Solutions_title_under_black_jpg.jpg" }
-    ],
-    "VEKTORA": [
-      { type: "image", src: "images/Logo_uten_rektangel_annet_version_jpg.jpg" },
-      { type: "image", src: "images/Logo_uten_rektangel_Outline_annet_version_jpg.jpg" },
-      { type: "image", src: "images/Logo.png" },
-      { type: "image", src: "images/Logo_outline_med_rektangel.png" },
-      { type: "image", src: "images2/Hanging Wall Sign MockUp 5.jpg" },
-      { type: "image", src: "images2/Hanging Wall Sign MockUp 5 (1).jpg" },
-      { type: "image", src: "images2/Hanging Wall Sign MockUp 5 (2).jpg" },
-      { type: "image", src: "images2/Hanging Wall Sign MockUp 5 (3).jpg" },
-      { type: "image", src: "images2/Mug PSD MockUp 3.jpg" },
-      { type: "image", src: "images2/Mug PSD MockUp 3 (1).jpg" },
-      { type: "image", src: "images2/Mug PSD MockUp 3 (2).jpg" }
-    ],
+
     "Silhouette arts": [
       { type: "image", src: "images/Battle cats_uten_min_kallnavn_autograf.jpg" },
       { type: "image", src: "images/Jurassic Park_min_egen_versjon_bilde.jpg" }
@@ -44,6 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: "video", src: "Videos/Pepsi_Short_Ad_video.mp4" }
     ],
     "Foto": [
+      { type: "image", src: "images/Vin1.jpg" },
+      { type: "image", src: "images/Vin2.jpg" },
+      { type: "image", src: "images/Vin3.jpg" },
+      { type: "image", src: "images/Vin4.jpg" },
       { type: "image", src: "images/Rosa_Tre.jpg" },
       { type: "image", src: "images/Glass_Hvit_Striper.jpg" },
       { type: "image", src: "images/Glass_Sort_Striper.jpg" },
