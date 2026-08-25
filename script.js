@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: "video", src: "Videos/Pepsi_Short_Ad_video.mp4" }
     ],
     "Foto": [
+      { type: "image", src: "images/Gull_Maske.jpg" },
+      { type: "image", src: "images/Drage_Kinesisk.jpg" },
       { type: "image", src: "images/Vin1.jpg" },
       { type: "image", src: "images/Vin2.jpg" },
       { type: "image", src: "images/Vin3.jpg" },
@@ -37,10 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: "image", src: "images/Kloden_Ute.jpg" },
       { type: "image", src: "images/Blad4.jpg" },
       { type: "image", src: "images/Johannes.jpg" },
-      { type: "image", src: "images/Dd_Blad_Gress1.jpg" },
-      { type: "image", src: "images/Dd_Blad_Gress_2.jpg" },
-      { type: "image", src: "images/Dd_Blad_Gress_3.jpg" },
-      { type: "image", src: "images/Energy_drink.jpg" },
       { type: "image", src: "images/Vanndråpe_3.jpg" },
       { type: "image", src: "images/Snø_Bilde_1.jpg" },
       { type: "image", src: "images/Snø_Bilde_2.jpg" }
