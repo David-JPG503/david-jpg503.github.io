@@ -1,225 +1,302 @@
 document.addEventListener('DOMContentLoaded', () => {
+  /*
+    PROJECT DATA
+    Add, remove, or reorder all projects in this array.
+    Each project needs a title, type, tag, image, description, and media list.
+  */
+  const projects = [
+    {
+      title: 'Fotograf Jon Marius Nilsson',
+      type: 'photo',
+      tag: 'Praksis · 2026',
+      image: 'images/Burger.jpg',
+      description: 'Matfoto og fargekorrigering i Capture One.',
+      media: [
+        { type: 'image', src: 'images/Burger.jpg' },
+        { type: 'image', src: 'images/Burger2.jpg' },
+        { type: 'image', src: 'images/Burger3.jpg' },
+        { type: 'image', src: 'images/Burger4.jpg' },
+        { type: 'image', src: 'images/Burger5.jpg' },
+        { type: 'image', src: 'images/Burger6.jpg' },
+        { type: 'image', src: 'images/Pommes.jpg' },
+        { type: 'image', src: 'images/Ringer.jpg' },
+        { type: 'image', src: 'images/Outside.jpg' },
+        { type: 'image', src: 'images/Outside2.jpg' },
+        { type: 'image', src: 'images/Bar_Bok.jpg' }
+      ]
+    },
+
+    {
+      title: 'PHM Norge',
+      type: 'video',
+      tag: 'Praksis · 2025—26',
+      image: 'images/PHM_Black.png',
+      description: 'Opptak, klipp og innhold for sosiale medier.',
+      media: [
+        {
+          type: 'video',
+          src: 'Videos2/Brøytning_Video Med_Caption_Compressed.mp4',
+          poster: 'images/PHM_Black.png'
+        },
+        {
+          type: 'video',
+          src: 'Videos2/Kort Annet Versjon Brøytning_Compressed.mp4',
+          poster: 'images/PHM_Black.png'
+        },
+        {
+          type: 'video',
+          src: 'Videos2/Bortkjøring Av Snø_Compressed.mp4',
+          poster: 'images/PHM_Black.png'
+        },
+        {
+          type: 'video',
+          src: 'Videos2/Blåsing_Måking_Compressed.mp4',
+          poster: 'images/PHM_Black.png'
+        }
+      ]
+    },
+
+    {
+      title: 'Kunsthøgskolen i Oslo',
+      type: 'video',
+      tag: 'Praksis · 2025',
+      image: 'images/Dokumentar.png',
+      description: 'Kort dokumentar produsert med lærlingene.',
+      media: [
+        {
+          type: 'video',
+          src: 'Videos3/Ståle Rue Dokumentar_Compressed.mp4',
+          poster: 'images/Dokumentar.png'
+        }
+      ]
+    },
+
+    {
+      title: 'Foto',
+      type: 'photo',
+      tag: 'Personlig arbeid',
+      image: 'images/Gull_Maske.jpg',
+      description: 'Lys, tekstur og små øyeblikk.',
+      media: [
+        { type: 'image', src: 'images/Gull_Maske.jpg' },
+        { type: 'image', src: 'images/Drage_Kinesisk.jpg' },
+        { type: 'image', src: 'images/Vin1.jpg' },
+        { type: 'image', src: 'images/Vin2.jpg' },
+        { type: 'image', src: 'images/Vin3.jpg' },
+        { type: 'image', src: 'images/Vin4.jpg' },
+        { type: 'image', src: 'images/Rosa_Tre.jpg' },
+        { type: 'image', src: 'images/Glass_Hvit_Striper.jpg' },
+        { type: 'image', src: 'images/Glass_Sort_Striper.jpg' },
+        { type: 'image', src: 'images/Glass_Litt_Trist.jpg' },
+        { type: 'image', src: 'images/Kloden_Ute.jpg' },
+        { type: 'image', src: 'images/Blad4.jpg' },
+        { type: 'image', src: 'images/Johannes.jpg' },
+        { type: 'image', src: 'images/Vanndråpe_3.jpg' },
+        { type: 'image', src: 'images/Snø_Bilde_1.jpg' },
+        { type: 'image', src: 'images/Snø_Bilde_2.jpg' }
+      ]
+    },
+
+    {
+      title: 'Pepsi',
+      type: 'video',
+      tag: 'Skoleprosjekt',
+      image: 'images/Pepsi_2.jpg',
+      description: 'Plakatdesign og en kort animert reklame.',
+      media: [
+        { type: 'image', src: 'images/Pepsi_2.jpg' },
+        { type: 'image', src: 'images/Pepsi_3.jpg' },
+        {
+          type: 'video',
+          src: 'Videos/Pepsi_Short_Ad_video.mp4',
+          poster: 'images/Pepsi_2.jpg'
+        }
+      ]
+    },
+
+    {
+      title: 'Magasin, skrekkplakat & trailer',
+      type: 'video',
+      tag: 'Skoleprosjekt',
+      image: 'images/Magasinforside_version_2.jpg',
+      description: 'Min første oppgave i medieproduksjon.',
+      media: [
+        { type: 'image', src: 'images/Magasinforside_version_2.jpg' },
+        { type: 'image', src: 'images/Plakat_Whisper_in_the_Dark.jpg' },
+        {
+          type: 'video',
+          src: 'Videos/Short_Trailer_with_video_templates.mp4',
+          poster: 'images/Magasinforside_version_2.jpg'
+        }
+      ]
+    },
+
+    {
+      title: 'Silhuettkunst',
+      type: 'photo',
+      tag: 'Kuben · 2024',
+      image: 'images/Battle cats_uten_min_kallnavn_autograf.jpg',
+      description: 'Illustrasjoner laget i Photoshop.',
+      media: [
+        {
+          type: 'image',
+          src: 'images/Battle cats_uten_min_kallnavn_autograf.jpg'
+        },
+        {
+          type: 'image',
+          src: 'images/Jurassic Park_min_egen_versjon_bilde.jpg'
+        }
+      ]
+    },
+
+    {
+      title: 'Pixel kunst',
+      type: 'photo',
+      tag: 'Personlig arbeid',
+      image: 'images/Mutated_Blender_Logo.png',
+      description: 'Pixelkunst og digitale eksperimenter.',
+      media: [
+        { type: 'image', src: 'images/Mutated_Blender_Logo.png' },
+        { type: 'image', src: 'images/Swamp_Icons.png' },
+        { type: 'image', src: 'images/PNG_Pixel_Overlay.png' }
+      ]
+    }
+  ];
+
+  const grid = document.getElementById('project-grid');
   const modal = document.getElementById('galleryModal');
   const mediaContainer = modal.querySelector('.modal-media-container');
-  const closeBtn = modal.querySelector('.modal-close');
-  const prevBtn = modal.querySelector('.modal-prev');
-  const nextBtn = modal.querySelector('.modal-next');
+  const closeButton = modal.querySelector('.modal-close');
+  const previousButton = modal.querySelector('.modal-prev');
+  const nextButton = modal.querySelector('.modal-next');
 
-  const projectMedia = {
+  let activeMedia = [];
+  let activeIndex = 0;
 
-    "Silhouette arts": [
-      { type: "image", src: "images/Battle cats_uten_min_kallnavn_autograf.jpg" },
-      { type: "image", src: "images/Jurassic Park_min_egen_versjon_bilde.jpg" }
-    ],
-    "Pixel arts": [
-      { type: "image", src: "images/Mutated_Blender_Logo.png" },
-      { type: "image", src: "images/Mutated_Blender_Logo_Gradient_Overlay.png" },
-      { type: "image", src: "images/Swamp_Icons.png" },
-      { type: "image", src: "images/PNG_Pixel_Overlay.png" },
-      { type: "image", src: "images/PNG_Pixel_Soft-light.png" },
-      { type: "image", src: "images/PNG_Pixel_Substract.png" }
-    ],
-    "Pepsi": [
-      { type: "image", src: "images/Pepsi_2.jpg" },
-      { type: "image", src: "images/Pepsi_3.jpg" },
-      { type: "image", src: "images/Pepsi_4.jpg" },
-      { type: "video", src: "Videos/Pepsi_Short_Ad_video.mp4" }
-    ],
-    "Foto": [
-      { type: "image", src: "images/Gull_Maske.jpg" },
-      { type: "image", src: "images/Drage_Kinesisk.jpg" },
-      { type: "image", src: "images/Vin1.jpg" },
-      { type: "image", src: "images/Vin2.jpg" },
-      { type: "image", src: "images/Vin3.jpg" },
-      { type: "image", src: "images/Vin4.jpg" },
-      { type: "image", src: "images/Rosa_Tre.jpg" },
-      { type: "image", src: "images/Glass_Hvit_Striper.jpg" },
-      { type: "image", src: "images/Glass_Sort_Striper.jpg" },
-      { type: "image", src: "images/Glass_Litt_Trist.jpg" },
-      { type: "image", src: "images/Kloden_Ute.jpg" },
-      { type: "image", src: "images/Blad4.jpg" },
-      { type: "image", src: "images/Johannes.jpg" },
-      { type: "image", src: "images/Vanndråpe_3.jpg" },
-      { type: "image", src: "images/Snø_Bilde_1.jpg" },
-      { type: "image", src: "images/Snø_Bilde_2.jpg" }
-    ],
-    "Posters_Trailer": [
-      { type: "image", src: "images/Magasinforside_version_2.jpg" },
-      { type: "image", src: "images/Plakat_Whisper_in_the_Dark.jpg" },
-      { type: "video", src: "Videos/Short_Trailer_with_video_templates.mp4" }
-    ],
-    "Dokumentar": [
-      { type: "video", src: "Videos3/Ståle Rue Dokumentar_Compressed.mp4" }
-    ],
-    "PHM": [
-      { type: "video", src: "Videos2/Brøytning_Video Med_Caption_Compressed.mp4" },
-      { type: "video", src: "Videos2/Kort Annet Versjon Brøytning_Compressed.mp4" },
-      { type: "video", src: "Videos2/Bortkjøring Av Snø_Compressed.mp4" },
-      { type: "video", src: "Videos2/Blåsing_Måking_Compressed.mp4" }
-    ],
-    "Matfotograf": [
-      { type: "image", src: "images/Burger.jpg" },
-      { type: "image", src: "images/Burger2.jpg" },
-      { type: "image", src: "images/Burger3.jpg" },
-      { type: "image", src: "images/Burger4.jpg" },
-      { type: "image", src: "images/Burger5.jpg" },
-      { type: "image", src: "images/Burger6.jpg" },
-      { type: "image", src: "images/Pommes.jpg" },
-      { type: "image", src: "images/Ringer.jpg" },
-      { type: "image", src: "images/Outside.jpg" },
-      { type: "image", src: "images/Outside2.jpg" },
-      { type: "image", src: "images/Bar_Bok.jpg" }
-    ]
-  };
-
-  let currentProject = null;
-  let currentIndex = 0;
-
-  function updateModalMedia() {
-    const mediaItems = projectMedia[currentProject];
-    const currentItem = mediaItems[currentIndex];
-
-    mediaContainer.innerHTML = ''; // Clear previous media
-
-    let mediaElement;
-    if (currentItem.type === 'image') {
-      mediaElement = document.createElement('img');
-      mediaElement.src = currentItem.src;
-      mediaElement.alt = `Screenshot ${currentIndex + 1} of ${currentProject}`;
-      mediaElement.style.maxWidth = '90vw';
-      mediaElement.style.maxHeight = '80vh';
-      mediaElement.style.borderRadius = 'var(--radius)';
-    } else if (currentItem.type === 'video') {
-      mediaElement = document.createElement('video');
-      mediaElement.src = currentItem.src;
-      mediaElement.controls = true;
-      mediaElement.autoplay = true;
-      mediaElement.style.maxWidth = '90vw';
-      mediaElement.style.maxHeight = '80vh';
-      mediaElement.style.borderRadius = 'var(--radius)';
-    }
-    mediaContainer.appendChild(mediaElement);
-
-    // Move image count inside media container, after the media
-    const imageCountDiv = document.createElement('div');
-    imageCountDiv.className = 'modal-image-count';
-    imageCountDiv.textContent = `${currentIndex + 1} / ${mediaItems.length}`;
-    mediaContainer.appendChild(imageCountDiv);
-  }
-
-  document.querySelectorAll('.view-project-btn').forEach(button => {
-    button.addEventListener('click', () => {
-      currentProject = button.closest('.project-card').dataset.project;
-      currentIndex = 0;
-
-      if (!projectMedia[currentProject]) return;
-
-      updateModalMedia();
-      modal.classList.add('active');
-      modal.setAttribute('aria-hidden', 'false');
+  function renderProjects(filter = 'all') {
+    const visibleProjects = projects.filter((project) => {
+      return filter === 'all' || project.type === filter;
     });
-  });
 
-  function showNextMedia() {
-    if (!currentProject) return;
-    const mediaItems = projectMedia[currentProject];
-    currentIndex = (currentIndex + 1) % mediaItems.length;
-    updateModalMedia();
+    grid.innerHTML = visibleProjects
+      .map((project, index) => {
+        const projectIndex = projects.indexOf(project);
+        const videoPlayButton = project.type === 'video'
+          ? '<span class="play-button">▶</span>'
+          : '';
+
+        return `
+          <article class="project-card ${project.type === 'video' ? 'is-video' : ''}" data-index="${projectIndex}">
+            <button class="card-image" aria-label="Åpne ${project.title}">
+              <img src="${project.image}" alt="${project.title}" loading="lazy" />
+              ${videoPlayButton}
+              <span class="card-number">0${index + 1}</span>
+            </button>
+            <div class="card-copy">
+              <p class="card-tag">${project.tag}</p>
+              <h3>${project.title}</h3>
+              <p>${project.description}</p>
+            </div>
+            <button class="text-button" aria-label="Se ${project.title}">
+              Se prosjekt <span>↗</span>
+            </button>
+          </article>
+        `;
+      })
+      .join('');
+
+    grid.querySelectorAll('.project-card').forEach((card) => {
+      card.addEventListener('click', () => {
+        openModal(projects[card.dataset.index]);
+      });
+    });
   }
 
-  function showPrevMedia() {
-    if (!currentProject) return;
-    const mediaItems = projectMedia[currentProject];
-    currentIndex = (currentIndex - 1 + mediaItems.length) % mediaItems.length;
-    updateModalMedia();
+  function updateMedia() {
+    const item = activeMedia[activeIndex];
+    const counter = `<p>${activeIndex + 1} / ${activeMedia.length}</p>`;
+
+    if (item.type === 'video') {
+      mediaContainer.innerHTML = `
+        <video
+          src="${item.src}"
+          poster="${item.poster || ''}"
+          controls
+          autoplay
+          playsinline
+        ></video>
+        ${counter}
+      `;
+      return;
+    }
+
+    mediaContainer.innerHTML = `
+      <img src="${item.src}" alt="Prosjektbilde ${activeIndex + 1}" />
+      ${counter}
+    `;
   }
 
-  nextBtn.addEventListener('click', e => {
-    e.stopPropagation();
-    showNextMedia();
-  });
+  function openModal(project) {
+    activeMedia = project.media;
+    activeIndex = 0;
+    updateMedia();
 
-  prevBtn.addEventListener('click', e => {
-    e.stopPropagation();
-    showPrevMedia();
-  });
+    modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+    closeButton.focus();
+  }
 
-  closeBtn.addEventListener('click', () => {
+  function closeModal() {
     modal.classList.remove('active');
     modal.setAttribute('aria-hidden', 'true');
     mediaContainer.innerHTML = '';
-    currentProject = null;
-    currentIndex = 0;
-  });
+    document.body.classList.remove('modal-open');
+  }
 
-  modal.addEventListener('click', (e) => {
-    if (e.target === modal) {
-      closeBtn.click();
-    }
-  });
+  function moveMedia(step) {
+    activeIndex = (activeIndex + step + activeMedia.length) % activeMedia.length;
+    updateMedia();
+  }
 
-  // Keyboard navigation & close
-  document.addEventListener('keydown', (e) => {
-    if (!modal.classList.contains('active')) return;
-
-    if (e.key === 'Escape') {
-      closeBtn.click();
-    } else if (e.key === 'ArrowRight') {
-      showNextMedia();
-    } else if (e.key === 'ArrowLeft') {
-      showPrevMedia();
-    }
-  });
-
-  // Filter buttons
-  document.querySelectorAll('.filter-btn').forEach(button => {
+  document.querySelectorAll('.filter-btn').forEach((button) => {
     button.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
-
-      const filter = button.getAttribute('data-filter');
-      const cards = document.querySelectorAll('.project-card');
-
-      cards.forEach(card => {
-        const type = card.getAttribute('data-type');
-        card.style.display = (filter === 'all' || filter === type) ? 'flex' : 'none';
+      document.querySelectorAll('.filter-btn').forEach((item) => {
+        item.classList.remove('active');
       });
+
+      button.classList.add('active');
+      renderProjects(button.dataset.filter);
     });
   });
-});
 
-document.getElementById("contact-form").addEventListener("submit", function (event) {
-    event.preventDefault();
+  closeButton.addEventListener('click', closeModal);
+  previousButton.addEventListener('click', () => moveMedia(-1));
+  nextButton.addEventListener('click', () => moveMedia(1));
 
-    const errorDiv = document.getElementById("error-message");
-    if (errorDiv) errorDiv.textContent = "";
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      closeModal();
+    }
+  });
 
-    const submitBtn = document.getElementById("submit_btn");
+  document.addEventListener('keydown', (event) => {
+    if (!modal.classList.contains('active')) {
+      return;
+    }
 
-    const formData = {
-        first_name: document.getElementById("first_name").value,
-        last_name: document.getElementById("last_name").value,
-        email: document.getElementById("email").value,
-        phone: document.getElementById("phone").value, // Optional
-        message: document.getElementById("message").value,
-    };
+    if (event.key === 'Escape') {
+      closeModal();
+    }
 
-    emailjs.send("service_20ln28y", "template_j1ncgrq", formData)
-        .then(function (response) {
-            submitBtn.innerHTML = "Sent";
-            submitBtn.disabled = true;
-            document.getElementById("contact-form").reset();
+    if (event.key === 'ArrowLeft') {
+      moveMedia(-1);
+    }
 
-            setTimeout(function () {
-                submitBtn.innerHTML = "Send Message";
-                submitBtn.disabled = false;
-            }, 3000);
-        })
-        .catch(function (error) {
-            if (errorDiv) {
-                errorDiv.textContent = "Failed to send message. Please try again.";
-                errorDiv.style.color = "white";
-            }
-            console.error("EmailJS Error:", error);
-        });
+    if (event.key === 'ArrowRight') {
+      moveMedia(1);
+    }
+  });
+
+  renderProjects();
 });
