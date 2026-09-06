@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       type: 'photo',
       tag: 'Praksis · 2026',
       image: 'images/Burger.jpg',
-      description: 'Matfoto og fargekorrigering i Capture One.',
+      description: 'Fargekorrigering av matfoto i Capture One.',
       media: [
         { type: 'image', src: 'images/Burger.jpg' },
         { type: 'image', src: 'images/Burger2.jpg' },
@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
       media: [
         { type: 'image', src: 'images/Pepsi_2.jpg' },
         { type: 'image', src: 'images/Pepsi_3.jpg' },
+        { type: 'image', src: 'images/Pepsi_4.jpg' },
         {
           type: 'video',
           src: 'Videos/Pepsi_Short_Ad_video.mp4',
