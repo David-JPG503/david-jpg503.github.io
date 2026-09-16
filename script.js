@@ -5,27 +5,37 @@ document.addEventListener('DOMContentLoaded', () => {
     Each project needs a title, type, tag, image, description, and media list.
   */
   const projects = [
+    
     {
-      title: 'Fotograf Jon Marius Nilsson',
+      title: 'Foto',
       type: 'photo',
-      tag: 'Praksis · 2026',
-      image: 'images/Burger.jpg',
-      description: 'Fargekorrigering av matfoto i Capture One.',
+      tag: 'Personlig arbeid',
+      image: 'images/Stor_Sirkel.jpg',
+      description: 'Lys, tekstur og små øyeblikk.',
       media: [
-        { type: 'image', src: 'images/Burger.jpg' },
-        { type: 'image', src: 'images/Burger2.jpg' },
-        { type: 'image', src: 'images/Burger3.jpg' },
-        { type: 'image', src: 'images/Burger4.jpg' },
-        { type: 'image', src: 'images/Burger5.jpg' },
-        { type: 'image', src: 'images/Burger6.jpg' },
-        { type: 'image', src: 'images/Pommes.jpg' },
-        { type: 'image', src: 'images/Ringer.jpg' },
-        { type: 'image', src: 'images/Outside.jpg' },
-        { type: 'image', src: 'images/Outside2.jpg' },
-        { type: 'image', src: 'images/Bar_Bok.jpg' }
+        { type: 'image', src: 'images/Stor_Sirkel.jpg' },
+        { type: 'image', src: 'images/Stor_Bygning.jpg' },
+        { type: 'image', src: 'images/Båt.jpg' },
+        { type: 'image', src: 'images/Skilt.jpg' },
+        { type: 'image', src: 'images/Gull_Maske.jpg' },
+        { type: 'image', src: 'images/Drage_Kinesisk.jpg' },
+        { type: 'image', src: 'images/Vin1.jpg' },
+        { type: 'image', src: 'images/Vin2.jpg' },
+        { type: 'image', src: 'images/Vin3.jpg' },
+        { type: 'image', src: 'images/Vin4.jpg' },
+        { type: 'image', src: 'images/Rosa_Tre.jpg' },
+        { type: 'image', src: 'images/Glass_Hvit_Striper.jpg' },
+        { type: 'image', src: 'images/Glass_Sort_Striper.jpg' },
+        { type: 'image', src: 'images/Glass_Litt_Trist.jpg' },
+        { type: 'image', src: 'images/Kloden_Ute.jpg' },
+        { type: 'image', src: 'images/Blad4.jpg' },
+        { type: 'image', src: 'images/Johannes.jpg' },
+        { type: 'image', src: 'images/Vanndråpe_3.jpg' },
+        { type: 'image', src: 'images/Snø_Bilde_1.jpg' },
+        { type: 'image', src: 'images/Snø_Bilde_2.jpg' }
       ]
     },
-
+    
     {
       title: 'PHM Norge',
       type: 'video',
@@ -72,28 +82,23 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
-      title: 'Foto',
+      title: 'Fotograf Jon Marius Nilsson',
       type: 'photo',
-      tag: 'Personlig arbeid',
-      image: 'images/Gull_Maske.jpg',
-      description: 'Lys, tekstur og små øyeblikk.',
+      tag: 'Praksis · 2026',
+      image: 'images/Burger.jpg',
+      description: 'Fargekorrigering av matfoto i Capture One.',
       media: [
-        { type: 'image', src: 'images/Gull_Maske.jpg' },
-        { type: 'image', src: 'images/Drage_Kinesisk.jpg' },
-        { type: 'image', src: 'images/Vin1.jpg' },
-        { type: 'image', src: 'images/Vin2.jpg' },
-        { type: 'image', src: 'images/Vin3.jpg' },
-        { type: 'image', src: 'images/Vin4.jpg' },
-        { type: 'image', src: 'images/Rosa_Tre.jpg' },
-        { type: 'image', src: 'images/Glass_Hvit_Striper.jpg' },
-        { type: 'image', src: 'images/Glass_Sort_Striper.jpg' },
-        { type: 'image', src: 'images/Glass_Litt_Trist.jpg' },
-        { type: 'image', src: 'images/Kloden_Ute.jpg' },
-        { type: 'image', src: 'images/Blad4.jpg' },
-        { type: 'image', src: 'images/Johannes.jpg' },
-        { type: 'image', src: 'images/Vanndråpe_3.jpg' },
-        { type: 'image', src: 'images/Snø_Bilde_1.jpg' },
-        { type: 'image', src: 'images/Snø_Bilde_2.jpg' }
+        { type: 'image', src: 'images/Burger.jpg' },
+        { type: 'image', src: 'images/Burger2.jpg' },
+        { type: 'image', src: 'images/Burger3.jpg' },
+        { type: 'image', src: 'images/Burger4.jpg' },
+        { type: 'image', src: 'images/Burger5.jpg' },
+        { type: 'image', src: 'images/Burger6.jpg' },
+        { type: 'image', src: 'images/Pommes.jpg' },
+        { type: 'image', src: 'images/Ringer.jpg' },
+        { type: 'image', src: 'images/Outside.jpg' },
+        { type: 'image', src: 'images/Outside2.jpg' },
+        { type: 'image', src: 'images/Bar_Bok.jpg' }
       ]
     },
 
