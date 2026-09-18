@@ -35,6 +35,21 @@ document.addEventListener('DOMContentLoaded', () => {
         { type: 'image', src: 'images/Snø_Bilde_2.jpg' }
       ]
     },
+
+    {
+      title: 'Colorgrade video',
+      type: 'video',
+      tag: 'Personlig arbeid',
+      image: 'images/Colograde_Bilde.png',
+      description: 'Før og etter fargekorrigering video.',
+      media: [
+        {
+          type: 'video',
+          src: 'Videos/Colorgrade.mp4',
+          poster: 'images/Colograde_Bilde.png'
+        }
+      ]
+    },
     
     {
       title: 'PHM Norge',
