@@ -5,34 +5,100 @@ document.addEventListener('DOMContentLoaded', () => {
     Each project needs a title, type, tag, image, description, and media list.
   */
   const projects = [
-    
     {
-      title: 'Foto',
+      title: 'TrAP Talk',
+      type: 'photo',
+      tag: 'Personlig arbeid',
+      image: 'images2/_SPX0013.jpg',
+      description: 'Foto av TrAP Talk.',
+      media: [
+        { type: 'image', src: 'images2/_SPX0013.jpg' },
+        { type: 'image', src: 'images2/_SPX0040.jpg' },
+        { type: 'image', src: 'images2/_SPX0047.jpg' },
+        { type: 'image', src: 'images2/_SPX0072.jpg' },
+        { type: 'image', src: 'images2/_SPX0095.jpg' },
+        { type: 'image', src: 'images2/_SPX0104.jpg' },
+        { type: 'image', src: 'images2/_SPX0144.jpg' },
+        { type: 'image', src: 'images2/_SPX0149.jpg' },
+        { type: 'image', src: 'images2/_SPX0162.jpg' },
+        { type: 'image', src: 'images2/_SPX0181.jpg' },
+        { type: 'image', src: 'images2/_SPX0194.jpg' },
+        { type: 'image', src: 'images2/_SPX0210.jpg' },
+        { type: 'image', src: 'images2/_SPX0276.jpg' },
+        { type: 'image', src: 'images2/_SPX0338.jpg' },
+        { type: 'image', src: 'images2/_SPX9477.jpg' },
+        { type: 'image', src: 'images2/_SPX9517.jpg' },
+        { type: 'image', src: 'images2/_SPX9719.jpg' },
+        { type: 'image', src: 'images2/_SPX9798.jpg' },
+        { type: 'image', src: 'images2/_SPX9801.jpg' },
+        { type: 'image', src: 'images2/_SPX9830.jpg' },
+        { type: 'image', src: 'images2/_SPX9875.jpg' },
+        { type: 'image', src: 'images2/_SPX9891.jpg' },
+        { type: 'image', src: 'images2/_SPX9999.jpg' }
+      ]
+    },
+
+    {
+      title: 'Kloden Teater',
+      type: 'photo',
+      tag: 'Personlig arbeid',
+      image: 'images/Kloden_Ute.jpg',
+      description: 'Foto av Kloden Teater.',
+      media: [
+        { type: 'image', src: 'images/Kloden_Ute.jpg' },
+        { type: 'image', src: 'images/Kloden_1.jpg' },
+        { type: 'image', src: 'images/Kloden_2.jpg' },
+        { type: 'image', src: 'images/Kloden_3.jpg' },
+        { type: 'image', src: 'images/Kloden_4.jpg' }
+      ]
+    },
+
+    {
+      title: 'Glass og Vin',
+      type: 'photo',
+      tag: 'Personlig arbeid',
+      image: 'images/Vin1.jpg',
+      description: 'Foto av glass og vin.',
+      media: [
+        { type: 'image', src: 'images/Vin1.jpg' },
+        { type: 'image', src: 'images/Vin2.jpg' },
+        { type: 'image', src: 'images/Vin3.jpg' },
+        { type: 'image', src: 'images/Vin4.jpg' },
+        { type: 'image', src: 'images/Glass_Hvit_Striper.jpg' },
+        { type: 'image', src: 'images/Glass_Sort_Striper.jpg' },
+        { type: 'image', src: 'images/Glass_Litt_Trist.jpg' }
+      ]
+    },
+
+    {
+      title: 'Bygninger og Natur',
       type: 'photo',
       tag: 'Personlig arbeid',
       image: 'images/Stor_Sirkel.jpg',
-      description: 'Lys, tekstur og små øyeblikk.',
+      description: 'Foto av bygninger og natur.',
       media: [
         { type: 'image', src: 'images/Stor_Sirkel.jpg' },
         { type: 'image', src: 'images/Stor_Bygning.jpg' },
         { type: 'image', src: 'images/Båt.jpg' },
         { type: 'image', src: 'images/Skilt.jpg' },
-        { type: 'image', src: 'images/Gull_Maske.jpg' },
-        { type: 'image', src: 'images/Drage_Kinesisk.jpg' },
-        { type: 'image', src: 'images/Vin1.jpg' },
-        { type: 'image', src: 'images/Vin2.jpg' },
-        { type: 'image', src: 'images/Vin3.jpg' },
-        { type: 'image', src: 'images/Vin4.jpg' },
         { type: 'image', src: 'images/Rosa_Tre.jpg' },
-        { type: 'image', src: 'images/Glass_Hvit_Striper.jpg' },
-        { type: 'image', src: 'images/Glass_Sort_Striper.jpg' },
-        { type: 'image', src: 'images/Glass_Litt_Trist.jpg' },
-        { type: 'image', src: 'images/Kloden_Ute.jpg' },
         { type: 'image', src: 'images/Blad4.jpg' },
-        { type: 'image', src: 'images/Johannes.jpg' },
         { type: 'image', src: 'images/Vanndråpe_3.jpg' },
         { type: 'image', src: 'images/Snø_Bilde_1.jpg' },
-        { type: 'image', src: 'images/Snø_Bilde_2.jpg' }
+        { type: 'image', src: 'images/Snø_Bilde_2.jpg' },
+        { type: 'image', src: 'images/Fugl.jpg' }
+      ]
+    },
+
+    {
+      title: 'Festivaler og Konserter',
+      type: 'photo',
+      tag: 'Personlig arbeid',
+      image: 'images/Gull_Maske.jpg',
+      description: 'Foto av festivaler og konserter.',
+      media: [
+        { type: 'image', src: 'images/Gull_Maske.jpg' },
+        { type: 'image', src: 'images/Drage_Kinesisk.jpg' }
       ]
     },
 
