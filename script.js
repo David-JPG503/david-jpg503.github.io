@@ -103,11 +103,11 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
-      title: 'Frognerpark video',
+      title: 'Frognerparken video',
       type: 'video',
       tag: 'Personlig arbeid',
       image: 'images/Bilde_Park.png',
-      description: 'En kort video av Frognerparken',
+      description: 'En kort video av Frognerparken.',
       media: [
         {
           type: 'video',
