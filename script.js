@@ -103,6 +103,21 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
+      title: 'Frognerpark video',
+      type: 'video',
+      tag: 'Personlig arbeid',
+      image: 'images/Bilde_Park.png',
+      description: 'En kort video av Frognerparken',
+      media: [
+        {
+          type: 'video',
+          src: 'Videos4/Frognerparken.mp4',
+          poster: 'images/Bilde_Park.png'
+        }
+      ]
+    },
+
+    {
       title: 'Colorgrade video',
       type: 'video',
       tag: 'Personlig arbeid',
