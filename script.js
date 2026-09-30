@@ -194,11 +194,6 @@ document.addEventListener('DOMContentLoaded', () => {
           type: 'video',
           src: 'Videos/Colorgrade_2026.mp4',
           poster: 'images/Color_Grade_2026.png'
-        },
-        {
-          type: 'video',
-          src: 'Videos/Colorgrade.mp4',
-          poster: 'images/Color_Grade_2026.png'
         }
       ]
     },
