@@ -184,16 +184,21 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
-      title: 'Colorgrade video',
+      title: 'Fargekorrigering video',
       type: 'video',
       tag: 'Personlig arbeid',
-      image: 'images/Colograde_Bilde.png',
+      image: 'images/Color_Grade_2026.png',
       description: 'Før og etter fargekorrigering video.',
       media: [
         {
           type: 'video',
+          src: 'Videos/Colorgrade_2026.mp4',
+          poster: 'images/Color_Grade_2026.png'
+        },
+        {
+          type: 'video',
           src: 'Videos/Colorgrade.mp4',
-          poster: 'images/Colograde_Bilde.png'
+          poster: 'images/Color_Grade_2026.png'
         }
       ]
     },
