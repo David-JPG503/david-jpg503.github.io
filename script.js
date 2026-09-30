@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
           type: 'video',
-          src: 'Videos/Fargekorrigering_Først.mp4',
+          src: 'Videos/Først.mp4',
           poster: 'images/Color_Grade_2026.png'
         }
       ]
