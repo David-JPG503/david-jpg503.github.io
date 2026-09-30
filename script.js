@@ -64,6 +64,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { type: 'image', src: 'images/Bigfoot_15.jpg'},
         { type: 'image', src: 'images/Bigfoot_16.jpg'},
         { type: 'image', src: 'images/Kloden_Ute.jpg'},
+        { type: 'image', src: 'images/Kloden_Flagg.jpg'},
+        { type: 'image', src: 'images/Mann_Kloden.jpg'},
         { type: 'image', src: 'images/Kloden_1.jpg'},
         { type: 'image', src: 'images/Kloden_2.jpg'},
         { type: 'image', src: 'images/Kloden_3.jpg'},
@@ -121,39 +123,25 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
-      title: 'Frognerparken video',
+      title: 'Kunsthøgskolen i Oslo',
       type: 'video',
-      tag: 'Personlig arbeid',
-      image: 'images/Bilde_Park.png',
-      description: 'En kort video av Frognerparken.',
+      tag: 'Praksis',
+      image: 'images/Dokumentar.png',
+      description: 'Kort dokumentar produsert med lærlingene.',
       media: [
         {
           type: 'video',
-          src: 'Videos4/Frognerparken.mp4',
-          poster: 'images/Bilde_Park.png'
+          src: 'Videos3/Ståle Rue Dokumentar_Compressed.mp4',
+          poster: 'images/Dokumentar.png'
         }
       ]
     },
 
-    {
-      title: 'Colorgrade video',
-      type: 'video',
-      tag: 'Personlig arbeid',
-      image: 'images/Colograde_Bilde.png',
-      description: 'Før og etter fargekorrigering video.',
-      media: [
-        {
-          type: 'video',
-          src: 'Videos/Colorgrade.mp4',
-          poster: 'images/Colograde_Bilde.png'
-        }
-      ]
-    },
     
     {
       title: 'PHM Norge',
       type: 'video',
-      tag: 'Praksis · 2025—26',
+      tag: 'Praksis',
       image: 'images/PHM_Black.png',
       description: 'Opptak, klipp og innhold for sosiale medier.',
       media: [
@@ -181,38 +169,32 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
-      title: 'Kunsthøgskolen i Oslo',
+      title: 'Frognerparken video',
       type: 'video',
-      tag: 'Praksis · 2025',
-      image: 'images/Dokumentar.png',
-      description: 'Kort dokumentar produsert med lærlingene.',
+      tag: 'Personlig arbeid',
+      image: 'images/Bilde_Park.png',
+      description: 'En kort video av Frognerparken.',
       media: [
         {
           type: 'video',
-          src: 'Videos3/Ståle Rue Dokumentar_Compressed.mp4',
-          poster: 'images/Dokumentar.png'
+          src: 'Videos4/Frognerparken.mp4',
+          poster: 'images/Bilde_Park.png'
         }
       ]
     },
 
     {
-      title: 'Fotograf Jon Marius Nilsson',
-      type: 'photo',
-      tag: 'Praksis · 2026',
-      image: 'images/Burger.jpg',
-      description: 'Fargekorrigering av matfoto i Capture One.',
+      title: 'Colorgrade video',
+      type: 'video',
+      tag: 'Personlig arbeid',
+      image: 'images/Colograde_Bilde.png',
+      description: 'Før og etter fargekorrigering video.',
       media: [
-        { type: 'image', src: 'images/Burger.jpg' },
-        { type: 'image', src: 'images/Burger2.jpg' },
-        { type: 'image', src: 'images/Burger3.jpg' },
-        { type: 'image', src: 'images/Burger4.jpg' },
-        { type: 'image', src: 'images/Burger5.jpg' },
-        { type: 'image', src: 'images/Burger6.jpg' },
-        { type: 'image', src: 'images/Pommes.jpg' },
-        { type: 'image', src: 'images/Ringer.jpg' },
-        { type: 'image', src: 'images/Outside.jpg' },
-        { type: 'image', src: 'images/Outside2.jpg' },
-        { type: 'image', src: 'images/Bar_Bok.jpg' }
+        {
+          type: 'video',
+          src: 'Videos/Colorgrade.mp4',
+          poster: 'images/Colograde_Bilde.png'
+        }
       ]
     },
 
@@ -254,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'Silhuettkunst',
       type: 'photo',
-      tag: 'Kuben · 2024',
+      tag: 'Personlig arbeid',
       image: 'images/Battle cats_uten_min_kallnavn_autograf.jpg',
       description: 'Illustrasjoner laget i Photoshop.',
       media: [
