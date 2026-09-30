@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
           type: 'video',
-          src: 'Videos/Colorgrade.mp4',
+          src: 'Videos/Colorgra.mp4',
           poster: 'images/Color_Grade_2026.png'
         }
       ]
