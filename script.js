@@ -155,11 +155,11 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
-      title: 'Lav lukketid video',
+      title: 'Lang lukketid video',
       type: 'video',
       tag: 'Personlig arbeid',
       image: 'images/Long_Exposure_Forside.png',
-      description: 'En kort video av bilder i lav lukketid.',
+      description: 'En kort video av bilder i lang lukketid.',
       media: [
         {
           type: 'video',
