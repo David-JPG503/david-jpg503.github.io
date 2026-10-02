@@ -105,20 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { type: 'image', src: 'images/Blad4.jpg' },
         { type: 'image', src: 'images/Vanndråpe_3.jpg' },
         { type: 'image', src: 'images/Snø_Bilde_1.jpg' },
-        { type: 'image', src: 'images/Snø_Bilde_2.jpg' },
-        { type: 'image', src: 'images/Fugl.jpg' }
-      ]
-    },
-
-    {
-      title: 'Festivaler og Konserter',
-      type: 'photo',
-      tag: 'Personlig arbeid',
-      image: 'images/Gull_Maske.jpg',
-      description: 'Foto av festivaler og konserter.',
-      media: [
-        { type: 'image', src: 'images/Gull_Maske.jpg' },
-        { type: 'image', src: 'images/Drage_Kinesisk.jpg' }
+        { type: 'image', src: 'images/Snø_Bilde_2.jpg' }
       ]
     },
 
@@ -136,7 +123,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       ]
     },
-
     
     {
       title: 'PHM Norge',
@@ -184,26 +170,6 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
-      title: 'Fargekorrigering video',
-      type: 'video',
-      tag: 'Personlig arbeid',
-      image: 'images/Color_Grade_2026.png',
-      description: 'Før og etter fargekorrigering video.',
-      media: [
-        {
-          type: 'video',
-          src: 'Videos/Colorgrade_2026.mp4',
-          poster: 'images/Color_Grade_2026.png'
-        },
-        {
-          type: 'video',
-          src: 'Videos/Først.mp4',
-          poster: 'images/Color_Grade_2026.png'
-        }
-      ]
-    },
-
-    {
       title: 'Pepsi',
       type: 'video',
       tag: 'Skoleprosjekt',
@@ -239,6 +205,20 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
+      title: 'Pixel kunst',
+      type: 'photo',
+      tag: 'Personlig arbeid',
+      image: 'images/Mutated_Blender_Logo.png',
+      description: 'Pixelkunst og digitale eksperimenter.',
+      media: [
+        { type: 'image', src: 'images/Mutated_Blender_Logo.png' },
+        { type: 'image', src: 'images/Mutated_Blender_Logo_Gradient_Overlay.png' },
+        { type: 'image', src: 'images/Swamp_Icons.png' },
+        { type: 'image', src: 'images/PNG_Pixel_Overlay.png' }
+      ]
+    },
+
+    {
       title: 'Silhuettkunst',
       type: 'photo',
       tag: 'Personlig arbeid',
@@ -249,23 +229,6 @@ document.addEventListener('DOMContentLoaded', () => {
           type: 'image',
           src: 'images/Battle cats_uten_min_kallnavn_autograf.jpg'
         },
-        {
-          type: 'image',
-          src: 'images/Jurassic Park_min_egen_versjon_bilde.jpg'
-        }
-      ]
-    },
-
-    {
-      title: 'Pixel kunst',
-      type: 'photo',
-      tag: 'Personlig arbeid',
-      image: 'images/Mutated_Blender_Logo.png',
-      description: 'Pixelkunst og digitale eksperimenter.',
-      media: [
-        { type: 'image', src: 'images/Mutated_Blender_Logo.png' },
-        { type: 'image', src: 'images/Swamp_Icons.png' },
-        { type: 'image', src: 'images/PNG_Pixel_Overlay.png' }
       ]
     }
   ];
