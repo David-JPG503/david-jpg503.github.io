@@ -155,16 +155,16 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     {
-      title: 'Frognerparken video',
+      title: 'Lav lukketid video',
       type: 'video',
       tag: 'Personlig arbeid',
-      image: 'images/Bilde_Park.png',
-      description: 'En kort video av Frognerparken.',
+      image: 'images/Long_Exposure_Forside.png',
+      description: 'En kort video av bilder i lav lukketid.',
       media: [
         {
           type: 'video',
-          src: 'Videos4/Frognerparken.mp4',
-          poster: 'images/Bilde_Park.png'
+          src: 'Videos4/Long_Exposure_Video.mp4',
+          poster: 'images/Long_Exposure_Forside.png'
         }
       ]
     },
