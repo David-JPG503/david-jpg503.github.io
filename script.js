@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
       media: [
         { type: 'image', src: 'images/Bigfoot_3.jpg'},
         { type: 'image', src: 'images/Bigfoot_5.jpg'},
+        { type: 'image', src: 'images/Bigfoot_7.jpg'},
         { type: 'image', src: 'images/Bigfoot_8.jpg'},
         { type: 'image', src: 'images/Bigfoot_9.jpg'},
         { type: 'image', src: 'images/Bigfoot_10.jpg'},
@@ -54,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { type: 'image', src: 'images/Bigfoot_12.jpg'},
         { type: 'image', src: 'images/Bigfoot_18.jpg'},
         { type: 'image', src: 'images/Bigfoot_14.jpg'},
+        { type: 'image', src: 'images/Bigfoot_15.jpg'},
         { type: 'image', src: 'images/Bigfoot_16.jpg'},
         { type: 'image', src: 'images/Kloden_Ute.jpg'},
         { type: 'image', src: 'images/Kloden_Flagg.jpg'},
